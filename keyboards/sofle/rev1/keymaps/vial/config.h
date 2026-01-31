@@ -28,4 +28,4 @@
 #define VIAL_UNLOCK_COMBO_COLS { 0, 0, 0, 0 }
 
 // Tap dance amount
-#define TAP_DANCE_AMOUNT 15
+#define TAP_DANCE_AMOUNT 10

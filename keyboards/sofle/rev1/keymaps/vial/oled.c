@@ -35,10 +35,10 @@ static void print_status_narrow(void) {
 
     switch (get_highest_layer(layer_state)) {
         case 0:
-            oled_write_ln_P(PSTR("Engram"), false);
+            oled_write_ln_P(PSTR("Engrm"), false);
             break;
         case 1:
-            oled_write_ln_P(PSTR("Num"), false);
+            oled_write_ln_P(PSTR("Clmk\n"), false);
             break;
         default:
             oled_write_P(PSTR("Mod\n"), false);
@@ -53,10 +53,10 @@ static void print_status_narrow(void) {
             oled_write_P(PSTR("Base\n"), false);
             break;
         case 2:
-            oled_write_P(PSTR("Raise"), false);
+            oled_write_P(PSTR("Raise\n"), false);
             break;
         case 3:
-            oled_write_P(PSTR("Lower"), false);
+            oled_write_P(PSTR("Lower\n"), false);
             break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);
